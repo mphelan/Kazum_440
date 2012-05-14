@@ -8,9 +8,53 @@
 	
 	<!-- Stylesheet 
 	________________________________________________________________________________ -->
+	<link href="styles.css" rel="stylesheet" type="text/css"/>
+	
 	
 	<!-- jQuery 
 	________________________________________________________________________________ -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script> <!-- library -->
+	<script type="text/javascript" src="jquery/haccordion.js"></script> <!--accordion -->
+	
+	 
+	 <script type="text/javascript">
+		haccordion.setup({  // script for accordion
+		accordionid: 'hc2', //main accordion div id
+		paneldimensions: {peekw:'30px', fullw:'500px', h:'400px'},
+		selectedli: [0, true], //[selectedli_index, persiststate_bool]
+		collapsecurrent: false
+	})
+	
+		$(document).hover(function(){ // script for accordion
+	        $(".hAtext1").show();
+	        $(".hAimage1").show();	
+	 
+	    $('.hAimage1').mouseover(function(){
+	    $(".hAtext1").fadeIn("slow");
+	     });
+			$('.hAimage1').mouseout(function(){
+			$(".hAtext1").fadeOut();
+			 });
+	    $('.hAimage2').mouseover(function(){
+	    $(".hAtext2").fadeIn("slow");
+	    });
+	    	$('.hAimage2').mouseout(function(){
+			$(".hAtext2").fadeOut();
+			 });
+	    $('.hAimage3').mouseover(function(){
+	    $(".hAtext3").fadeIn("slow");
+	    });
+	    	$('.hAimage3').mouseout(function(){
+			$(".hAtext3").fadeOut();
+			 });
+		$('.hAimage4').mouseover(function(){
+	    $(".hAtext4").fadeIn("slow");
+	    });
+	    	$('.hAimage4').mouseout(function(){
+			$(".hAtext4").fadeOut();
+			 });
+	});
+	</script>
 	
 	<!-- Fonts 
 	________________________________________________________________________________ -->
