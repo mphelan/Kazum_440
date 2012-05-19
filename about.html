@@ -4,58 +4,38 @@
 
 	<head>
 	
-		<title>KazŸm</title>
+		<title>Kazüm</title>
 	
 	<!-- Stylesheet 
 	________________________________________________________________________________ -->
 	<link href="styles.css" rel="stylesheet" type="text/css"/>
 	
-	
+
 	<!-- jQuery 
 	________________________________________________________________________________ -->
-	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script> <!-- library -->
-	<script type="text/javascript" src="jquery/haccordion.js"></script> <!--accordion -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script> <!-- library -->
+    <script type="text/javascript" src="http://web-argument.com/wp-content/uploads/2011/03/jquery-ui-1.8.10.custom.min_.js"></script> <!-- accordion -->
+	<script type="text/javascript" src="jquery/accordionImageMenu-0.4.min.js"></script> <!-- accordion -->
 	
-	 
-	 <script type="text/javascript">
-		haccordion.setup({  // script for accordion
-		accordionid: 'hc2', //main accordion div id
-		paneldimensions: {peekw:'30px', fullw:'500px', h:'400px'},
-		selectedli: [0, true], //[selectedli_index, persiststate_bool]
-		collapsecurrent: false
-	})
+     
+    <script type="text/javascript"> // accordion
+	$(document).ready(function() {
 	
-		$(document).hover(function(){ // script for accordion
-	        $(".hAtext1").show();
-	        $(".hAimage1").show();	
-	 
-	    $('.hAimage1').mouseover(function(){
-	    $(".hAtext1").fadeIn("slow");
-	     });
-			$('.hAimage1').mouseout(function(){
-			$(".hAtext1").fadeOut();
-			 });
-	    $('.hAimage2').mouseover(function(){
-	    $(".hAtext2").fadeIn("slow");
-	    });
-	    	$('.hAimage2').mouseout(function(){
-			$(".hAtext2").fadeOut();
-			 });
-	    $('.hAimage3').mouseover(function(){
-	    $(".hAtext3").fadeIn("slow");
-	    });
-	    	$('.hAimage3').mouseout(function(){
-			$(".hAtext3").fadeOut();
-			 });
-		$('.hAimage4').mouseover(function(){
-	    $(".hAtext4").fadeIn("slow");
-	    });
-	    	$('.hAimage4').mouseout(function(){
-			$(".hAtext4").fadeOut();
-			 });
+		jQuery('#acc-menu2').AccordionImageMenu({
+		  'border' : 1,
+		  'openItem':0,
+		  'duration': 400,
+		  'openDim': 310,
+		  'closeDim': 100,
+		  'effect': 'easeOutQuint',
+		  'fadeInTitle': true,
+		  'height':420 
+		});	
+		
 	});
-	</script>
-	
+    </script>
+    
+
 	<!-- Fonts 
 	________________________________________________________________________________ -->
 	
@@ -68,10 +48,49 @@
 	<body>
 	
 	
-		<h1>My First Heading</h1>
-		
-			<p>My first paragraph.</p>
 	
+							
+		<!-- ====================== ACCORDION ==================== -->			
+	<h1 align="center">Bios</h1>
+
+		<div id="acc-menu2" style="margin:10px auto">
+			
+			<div>
+			<a href="#"><span class="acc-body-copy">Uli</span><img src="images/bio/bio_img_5528-edit.jpg" alt="Bio Image 1" title="Name #1" width="350" height="420" class="image-acc"/></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #2</span><img src="images/bio/bio_img_5392-edit.jpg" alt="Bio Image 2" title="Name #2" width="350" height="420"  /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #3</span><img src="images/bio/bio_img_5357-edit.jpg" alt="Bio Image 3" title="Name #3" width="350" height="420"  /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #4</span><img src="images/bio/bio_img_5413-edit.jpg" alt="Bio Image 4" title="Name #4" width="350" height="420"  /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #5</span><img src="images/bio/bio_img_5458-edit.jpg" alt="Bio Image 5" title="Name #5" width="350" height="420" /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #6</span><img src="images/bio/bio_img_5541-edit.jpg" alt="Bio Image 6" title="Name #6" width="350" height="420"  /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+			<div>
+			<a href="#"><span class="acc-title-copy">Name #7</span><img src="images/bio/bio_img_5570-edit.jpg" alt="Bio Image 7" title="Name #7" width="350" height="420"  /></a>
+<!-- 			<span class="text-acc">1. Text about the individual shall lie in this space.</span> -->
+			</div>
+			
+		</div>	
 	
 	
 	
