@@ -109,6 +109,170 @@ ul.nav { /* controls text position */
 	color: #f3f4ee;
 }
 
+/* ________________________________ MURPHY'S STYLES ________________________________ */
+
+/* CLASSES & SERVICES STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
+
+#services h1{
+color: #4D2A71;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#services h2{
+color: #A170B0;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#services h3{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#services h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#classes h1{
+color: #4D2A71;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#classes h2{
+color: #A170B0;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#classes h3{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#classes h3 a{
+text-decoration: none;
+color: black;
+}
+
+#classes h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+/* EVENTS & CALENDAR STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
+
+#events h1{
+color: #4D2A71;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#events h3{
+color: #A170B0;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#events h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#calendar h1{
+color: #4D2A71;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#calendar h3{
+color: #A170B0;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#calendar h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#booking h1{
+color: #4D2A71;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+#booking h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+
+
+
+
+
+/* AMANDA FRANK'S SECTION - start
+ * ____________________________________ ACCORDION styles ____________________________________ */
+.aim {
+	position:relative;
+/* 	overflow:hidden; */
+	margin:0;
+	clear:both;
+	padding:0;
+}
+.aim a {
+	background-position:center top;
+	cursor:pointer;
+	display:block;
+	position:relative;
+	float:left;
+	text-decoration:none;
+}
+.aim a:hover, .aim a:visited {
+	text-decoration:none;
+}
+.aim ul{list-style:none;}
+.aim li {
+	display:block;
+	float:left;
+}
+.acc-title-copy { /* title copy / names of team members */
+	color:#000;
+	width:100%;
+	display:block;
+	padding:350px 5px 0px 5px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:20px;
+	position: relative;
+}
+.text-acc { /* bio text */
+	color:#000;
+	width:100%;
+	display:block;
+	padding:20px 5px 0px 5px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:20px;
+	margin-top: 200px;
+}
+.image-acc { /* bio images */
+	
+}
+/* AMANDA FRANK'S SECTION - end
+ * ____________________________________ ACCORDION styles ____________________________________ */
+ 
+ 
 
 
 /* #Media Queries
