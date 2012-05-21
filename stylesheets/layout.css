@@ -109,6 +109,41 @@ ul.nav { /* controls text position */
 	color: #f3f4ee;
 }
 
+
+/*NAVIGATION FLAGS
+************************************************************************/
+
+.rightflag {
+position: absolute;
+z-index: -1000;
+left: 99.8%;
+top: 80px;
+}
+
+.leftflag {
+position: absolute;
+z-index: -1001;
+left: -2.4%;
+top: 80px;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.flip img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+
 /* ________________________________ MURPHY'S STYLES ________________________________ */
 
 /* CLASSES & SERVICES STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
