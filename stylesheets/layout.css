@@ -20,6 +20,8 @@
 /* #Page Styles
 ================================================== */
 
+
+
 html{		
 	background-image: url(../images/KazumPattern.png);
 		-webkit-background-size: cover;
@@ -29,6 +31,7 @@ html{
 	display: block;
 	width: 100%;
 	background-color: #a170b0;
+
 }
 	
 header{ 
@@ -152,6 +155,7 @@ top: 80px;
 color: #4D2A71;
 font-family: 'Oswald', sans-serif;
 letter-spacing: 1px;
+margin-top: 225px;
 }
 
 #services h2{

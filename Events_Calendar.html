@@ -1,37 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel='stylesheet' type='text/css' media='all' href='reset.css' />
-    <link rel='stylesheet' type='text/css' media='all' href='grid.css' />
-	<link rel='stylesheet' type='text/css' media='all' href='styles.css' />
-	
-	<script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
-	<script src="scripts/scripts.js" type="text/javascript"></script>
-	
-	
-	
-	<link rel="alternate" type="application/rss+xml" title="Feed" href="rss.xml" />
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-	
-	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="icon" href="images/favicon.png" type="image/png" />
-	
-	
-	
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Events & Calendar</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
 </head>
 
 
 <body>
 
-	<div id="events">
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<header>
+		</header>
+
+
+<ul class="nav">
+	<div class="left-nav">
+		<li><a href="#" id="nav-bar-group">HOME</a></li>
+		<span class="nav-diamond">&diams;</span>
+		<li><a href="#" id="nav-bar-group">ABOUT</a></li>
+		<span class="nav-diamond">&diams;</span>
+		<li><a href="#" id="nav-bar-group" id="nav-space1">EVENTS</a></li>
+		<span class="nav-diamond">&diams;</span>
+	</div>
+	<div class="right-nav">
+		<span class="nav-diamond">&diams;</span>
+		<li><a href="#" id="nav-bar-group" id="nav-space2">CLASSES</a></li>
+		<span class="nav-diamond">&diams;</span>
+		<li><a href="#" id="nav-bar-group">GALLERY</a></li>
+		<span class="nav-diamond">&diams;</span>
+		<li><a href="#" id="nav-bar-group">CONTACT</a></li>
+	</div>
+</ul>
+<div class="color-bar" id="nav-bar-group"></div>
+</nav> <!-- end /nav -->
+
+<div id="align-logo">
+	<img src="images/KazumLogo.png" class="logo" alt="KazumLogo" />
+</div>
+
+<div class="backgroundcolor">
+
+	<div class "twelve columns" id="events">
 	
-		  <div id"upcoming_events">
-		  
-			<h1>UPCOMING EVENTS</h1>
-			
-		  </div><!-- end of upcoming_events div -->
+	  <div id"upcoming_events">
+	  
+		<h1 class="remove-bottom" style="margin-top: 40px">UPCOMING EVENTS</h1>
+		
+	  </div><!-- end of upcoming_events div -->
 		  
 		  <div id"events_slider">
 		  
@@ -106,14 +156,12 @@
 	</div><!-- end of "booking" div -->
 	
 	
-</div><!-- end of "below_upcoming_events" div -->
+	</div><!-- end of "below_upcoming_events" div -->
 
 
-	<div id="footer">
-	
-	</div><!-- end of footer -->
+	</div><!-- backgroundcolor -->
 
-
+</div><!-- container -->
 
 </body>
 </html>
