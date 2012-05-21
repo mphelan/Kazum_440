@@ -307,6 +307,94 @@ letter-spacing: 1px;
  * ____________________________________ ACCORDION styles ____________________________________ */
  
  
+/* FOOTER
+================================================== */
+
+
+footer{
+background-color:#4d2970; 
+display: inherit;
+}
+
+
+
+
+
+footer img{
+	padding: 10px 2px ;
+   vertical-align: middle;
+  
+}  
+
+footer p{
+	padding-left: 10px;
+   vertical-align: middle;
+   color: #F3F4EE;
+   text-transform:uppercase;
+}  
+
+footer a:link {
+color:#fff; text-decoration: none;}      /* unvisited link */
+
+footer a:visited {
+color:#A9BF04; text-decoration: none;}  /* visited link */
+
+footer a:hover {
+color:#ef3b24; text-decoration: none;}  /* mouse over link */
+
+footer a:active {
+color:#0000FF; text-decoration: none;}  /* selected link */ 
+
+
+footer img:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+/*press
+***********************************************************************/
+.line{
+border-top:4px solid #a170b0;
+  }
+
+.press img{
+height: 50px;
+padding-bottom:10px;
+}
+
+
+.press p{
+padding-top: 10px;
+}
+
+
+
+/*Elements
+***********************************************************************/
+
+.purpBack{
+background-color: rgba(161,112,176,0.12); /* hex code #a170b0 */
+padding:10px;
+}
+
+
+.TopBottomPad{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.line{
+border-top:4px solid #a170b0;
+  }
+
+
+
+
+
 
 
 /* #Media Queries
