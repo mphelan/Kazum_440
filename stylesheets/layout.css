@@ -156,7 +156,6 @@ color: #4D2A71;
 font-family: 'Oswald', sans-serif;
 letter-spacing: 1px;
 margin-top: 225px;
-float:left;
 }
 
 #services h2{
@@ -209,15 +208,10 @@ letter-spacing: 1px;
 /* EVENTS & CALENDAR STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
 
 #events h1{
-color: #4D2A71;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
+margin-top: 25px;
 }
 
 #events h3{
-color: #A170B0;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
 }
 
 #events h4{
