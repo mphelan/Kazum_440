@@ -149,7 +149,7 @@ top: 80px;
 
 /* ________________________________ MURPHY'S STYLES ________________________________ */
 
-/* CLASSES & SERVICES STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
+/* CLASSES & SERVICES STYLES */
 
 #services h1{
 color: #4D2A71;
@@ -205,7 +205,7 @@ font-family: 'Oswald', sans-serif;
 letter-spacing: 1px;
 }
 
-/* EVENTS & CALENDAR STYLES  - I realize we can probably style all the headers in one place, we can totally change this */
+/* EVENTS & CALENDAR STYLES */
 
 #events h1{
 margin-top: 25px;
