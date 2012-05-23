@@ -62,18 +62,18 @@
 /* #Typography
 ================================================== */
 	h1, h2, h5, h6 {
-		color: #4D2A71;
+		color: #B5B5B5;
 		font-family: 'Oswald', sans-serif;
 		letter-spacing: 1px;
 		}
 		
 	h3 {
-	    color: #A170B0;
+	    color: #333333;
 		font-family: 'Oswald', sans-serif;
 		letter-spacing: 1px;}
 		
 	h4{
-		color: #404040;
+		color: #333333;
 		font-family: 'Oswald', sans-serif;
 		letter-spacing: 1px;} /* Murphy added these styles for h1 h3 h4 */
 	

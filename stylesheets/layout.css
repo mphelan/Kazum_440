@@ -20,7 +20,13 @@
 /* #Page Styles
 ================================================== */
 
+.margin_bottom_35{
+margin-bottom: 35px;
+}
 
+.margin_bottom_10{
+margin-bottom: 10px;
+}
 
 html{		
 	background-image: url(../images/KazumPattern.png);
