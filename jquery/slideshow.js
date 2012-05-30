@@ -4,7 +4,6 @@
       $(".rslides").responsiveSlides({
         speed: 1000,
       });
-     alert("alert");
 
     });
 
