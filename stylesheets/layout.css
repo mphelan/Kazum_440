@@ -184,10 +184,7 @@ color: black;}
 #events p a:hover{
 color: #B5B5B5;}
 
-<<<<<<< HEAD
-=======
 
->>>>>>> css photofiller fix
 
 
 /* AMANDA'S "About" SECTION - start
@@ -628,7 +625,6 @@ overflow:hidden;}
    column-count:         6;
    column-gap:           0px;
    
-	width: 100%;
 
 }
 #photofiller img {
@@ -712,4 +708,4 @@ overflow:hidden;}
 	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
 	    font-weight: normal;
 	    font-style: normal; }
-*/ssssssssss
+*/
