@@ -120,10 +120,10 @@ nav a:visited {
 color:#fff; text-decoration: none;}  /* visited link */
 
 nav a:hover {
-color:#ef3b24; text-decoration: none;}  /* mouse over link */
+color:#E8E8E8; text-decoration: none;}  /* mouse over link */
 
 nav a:active {
-color:#0000FF; text-decoration: none;}  /* selected link */ 
+color:#E8E8E8; text-decoration: none;}  /* selected link */ 
 
 
 
