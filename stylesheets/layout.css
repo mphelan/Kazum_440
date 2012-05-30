@@ -54,6 +54,11 @@ height: 69px;
 	height: 100%;
 	margin-top: -1px;
 }
+
+footer p a:hover{
+color: #B5B5B5;}
+
+
 /* navigation
 ____________________________________________*/
 
@@ -174,10 +179,10 @@ color: #B5B5B5;}
 
 #events p a{
 text-decoration: none;
-color: #B5B5B5;}
+color: black;}
 
 #events p a:hover{
-color: black;}
+color: #B5B5B5;}
 
 .events_slider{
 }
