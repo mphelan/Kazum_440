@@ -1,5 +1,6 @@
 $(document).ready(function() {
- $('#s3').cycle({ 
+ $('.events_slider').cycle({ 
     fx:    'fade', 
-    speed:  2500 
+    speed:  2500 ,
+    });
  });
