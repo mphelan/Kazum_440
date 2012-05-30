@@ -159,106 +159,23 @@ top: 80px;
 
 /* CLASSES & SERVICES STYLES */
 
-#services h1{
-color: #4D2A71;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-margin-top: 225px;
-}
 
-#services h2{
-color: #A170B0;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
+.services p a{
+text-decoration: none;}
 
-#services h3{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
+.services p a:hover {
+color: #B5B5B5;}
 
-#services h4{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#classes h1{
-color: #4D2A71;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#classes h2{
-color: #A170B0;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#classes h3{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#classes h3 a{
-text-decoration: none;
-color: black;
-}
-
-#classes h4{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
 
 /* EVENTS & CALENDAR STYLES */
 
-#events h1{
-margin-top: 25px;
-}
 
-#events h3{
-}
+#events p a{
+text-decoration: none;
+color: #B5B5B5;}
 
-#events h4{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#calendar h1{
-color: #4D2A71;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#calendar h3{
-color: #A170B0;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#calendar h4{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#booking h1{
-color: #4D2A71;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-#booking h4{
-color: black;
-font-family: 'Oswald', sans-serif;
-letter-spacing: 1px;
-}
-
-
+#events p a:hover{
+color: black;}
 
 
 
