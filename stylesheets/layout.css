@@ -54,71 +54,73 @@ height: 69px;
 	height: 100%;
 	margin-top: -1px;
 }
-
 /* navigation
 ____________________________________________*/
-.color-bar{
+
+nav{ /* controls nav position */
+height: 35px;
+width: 100%;
+position: relative;
 background-color: rgb(77, 41, 112);
-height: 35px;
-position: relative;
-width: 100%;
-z-index: 80;
+
 }
-.nav{ /* controls nav position */
-height: 35px;
-width: 100%;
-float: left;
-clear: both;
+
+
+nav ul { /* controls nav position */
+text-align: center;
 position: relative;
-z-index: 8;
-margin-top: -78px;	
+top: -170%;
+ z-index: 9999;
+
+margin:0;
+padding:0;
+list-style-type:none; 
 }
-.nav li{
+
+
+nav li{
   display:inline;
-  margin: 0 auto; 	 
+  margin: 0 auto; 
+
+
 }
-.nav a{
-  display:inline-block;
-  padding:10px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;  
-}
-ul.nav { /* controls text position */
-  	text-align: center;
-  	margin-top: -2px;
-  	position: relative;
-	z-index: 1000;
-}
+
+
 .logo{
- margin-top: -110px;
  width: 255px; 
  height: 155px;
- float:left;
- clear: both;
- margin-left: 34.25%;
- position: relative;
- z-index: 9999;
+
+vertical-align: middle;
 }
-#align-logo {
-	margin: 0 auto;
-}
-#nav-bar-group {
-	margin-top: 0px;
-}
-.left-nav {
-	width: 250px;
-	float: left;
-	padding-left: 8%;
-}
-.right-nav {
-	width: 300px;
-	float: right;
-	padding-right: 8%;
-}
+
 .nav-diamond {
 	color: #f3f4ee;
 }
+
+/* 960-255(logo)=705 / 6links =117.5 */
+.getbigger
+{width: 24.9%;
+float: right;
+background: aqua;
+margin:0 0 10px 0;
+text-align:center;
+}
+/* 352.5 / 960 0.122395833333333 = 12.2395833333333% */
+
+
+nav a:link {
+color:#fff; text-decoration: none; }  /* unvisited link */
+
+nav a:visited {
+color:#fff; text-decoration: none;}  /* visited link */
+
+nav a:hover {
+color:#ef3b24; text-decoration: none;}  /* mouse over link */
+
+nav a:active {
+color:#0000FF; text-decoration: none;}  /* selected link */ 
+
+
 
 
 /*NAVIGATION FLAGS
@@ -299,22 +301,330 @@ padding-top: 10px;
 
 .purpBack{
 background-color: rgba(161,112,176,0.12); /* hex code #a170b0 */
-padding:10px;
+padding-right:10px;
+padding-left:10px;
+padding-bottom:10px;
+
 }
 
 
-.TopBottomPad{
+.TopPad{
 padding-top: 20px;
-padding-bottom: 20px;
 }
-
-
+ 
+.BottomPad
+{padding-bottom: 20px;
+}
 .line{
 border-top:4px solid #a170b0;
   }
 
 
 
+/*responsiveslider
+***********************************************************************//*! http://responsiveslides.com v1.32 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+/*Start ISOTOPE Photo demo
+***********************************************************************/
+
+
+.photos .photo {
+width: 29.8850574712644%;
+
+  margin: 10px;
+  float: left;
+}
+
+.photos .photo img {
+  display: block;
+  width: 100%;
+}
+
+.IsotopeContainer {
+  width: 81.25%;
+  margin: 0 auto
+}
+
+.demos #content {
+  height: 100%;
+}
+
+
+
+
+/***********************************************************************
+end of ISOTOPE Photo demo*/
+
+
+
+
+
+
+/* #Flat image carousel
+================================================== */
+
+
+#waterwheel-carousel-flat {
+  width:100%;
+/*
+  background-color:#CCC;
+  border:1px solid #222;
+*/
+  height:250px;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+}
+#waterwheel-carousel-flat a {
+  color:#222;
+}
+#waterwheel-carousel-flat .carousel-images img {
+  visibility:hidden;
+  cursor:pointer;
+}
+#waterwheel-carousel-flat .carousel-controls .carousel-prev {
+  position:absolute;
+  bottom:20px;
+  left:30px;
+}
+#waterwheel-carousel-flat .carousel-controls .carousel-next {
+  position:absolute;
+  bottom:20px;
+  right:30px;
+}
+
+
+
+/* # start of responsive image carousel
+================================================== */
+
+
+
+
+
+		.list_carousel {
+/* 				background-color: #ccc; */
+				margin: 0 0 30px 60px;
+				width: 360px;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				font-size: 40px;
+				color: #999;
+				text-align: center;
+				background-color: #eee;
+				border: 5px solid #999;
+				width: 50px;
+				height: 50px;
+				padding: 0;
+				margin: 6px;
+				display: block;
+				float: left;
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+
+/* #end of responsive image carousel
+================================================== */
+
+
+
+/* #start of responsive image carousel with HTML buttons
+================================================== */
+.image_carousel {
+	padding: 15px 0 15px 40px;
+	position: relative;
+	
+}
+.image_carousel img {
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 9px;
+	margin: 7px;
+	display: block;
+	float: left;
+}
+a.prev, a.next {
+	background: url(../images/imageslidertest/miscellaneous_sprite.png) no-repeat transparent;
+	width: 45px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 85px;
+}
+a.prev {			left: -22px;
+					background-position: 0 0; }
+a.prev:hover {		background-position: 0 -50px; }
+a.prev.disabled {	background-position: 0 -100px !important;  }
+a.next {			right: -22px;
+					background-position: -50px 0; }
+a.next:hover {		background-position: -50px -50px; }
+a.next.disabled {	background-position: -50px -100px !important;  }
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+a.prev span, a.next span {
+	display: none;
+}
+.pagination {
+	text-align: center;
+}
+.pagination a {
+	background: url(../images/imageslidertest/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+/* 2nd clearfix
+.fixclear {
+	float: none;
+	clear: both;
+}
+*/
+
+/* #end of responsive image carousel with HTML buttons
+================================================== */
+
+/* #image mask
+================================================== */
+.box{
+width:100%;
+overflow:hidden;}
+}
+
+
+
+
+
+/* #photofiller
+================================================== */
+
+
+#photofiller {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+
+}
+#photofiller img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+@media (max-width: 1200px) {
+  #photofiller {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photofiller {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photofiller {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photofiller {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
 
 
 
