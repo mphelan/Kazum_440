@@ -44,26 +44,41 @@
 
 
 
-<script type="text/javascript" src="jquery/jquery.waterwheelCarousel.min.js"></script>
-
-<script src="jquery/carousel.js"></script>
-
-
-
 
 
 <script type="text/javascript" src="jquery/jquery.carouFredSel-5.5.5-packed.js"></script>
-
 <script src="jquery/carouFredSel.js"></script>
 
 
 
 
 
-<script src="../jquery.isotope.min.js"></script>
-<script src="jquery/isotope.js"></script>
+<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="jquery/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
 
 
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+
+		});
+	</script>
 
 </head>
 <body>
@@ -198,31 +213,52 @@ Phone: 503-449-7864 </p>
 <div class="ten columns offset-by-one">
 
 <section id="photofiller">
-<img src="images/ISOTOPEphotos/3869.png" alt="3869"  />
-<img src="images/ISOTOPEphotos/aewanderlustcircusob916.png" alt="aewanderlustcircusob916" />
-<img src="images/ISOTOPEphotos/C.png" alt="C" />
-<img src="images/ISOTOPEphotos/c11.jpg" alt="c11" />
-<img src="images/ISOTOPEphotos/c12.png" alt="c12" />
-<img src="images/ISOTOPEphotos/c14.png" alt="c14" />
-<img src="images/ISOTOPEphotos/c17.png" alt="c17" />
-<img src="images/ISOTOPEphotos/c19.png" alt="c19" />
-<img src="images/ISOTOPEphotos/c88.png" alt="c88" />
-<img src="images/ISOTOPEphotos/IMG_2299.png" alt="IMG_2299" />
-<img src="images/ISOTOPEphotos/MG_3875.png" alt="MG_3875" />
-<img src="images/ISOTOPEphotos/MG3135.png" alt="MG3135" />
+<a rel="example_group" href="images/ISOTOPEphotos/3869.png" ><img src="images/ISOTOPEphotos/3869.png"  /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/aewanderlustcircusob916.png" ><img src="images/ISOTOPEphotos/aewanderlustcircusob916.png"/></a>
+<a rel="example_group" href="images/ISOTOPEphotos/C.png" ><img src="images/ISOTOPEphotos/C.png"  />	   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c11.jpg"> <img src="images/ISOTOPEphotos/c11.jpg" alt="c11" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c12.png"> <img src="images/ISOTOPEphotos/c12.png" alt="c12" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c14.png" ><img src="images/ISOTOPEphotos/c14.png" alt="c14" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c17.png" ><img src="images/ISOTOPEphotos/c17.png" alt="c17" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c19.png" ><img src="images/ISOTOPEphotos/c19.png" alt="c19" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c88.png" ><img src="images/ISOTOPEphotos/c88.png" alt="c88" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/IMG_2299.png" ><img src="images/ISOTOPEphotos/IMG_2299.png" alt="IMG_2</a>299" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG_3875.png" ><img src="images/ISOTOPEphotos/MG_3875.png" alt="MG_387</a>5" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG3135.png" ><img src="images/ISOTOPEphotos/MG3135.png" alt="MG3135" /></a>
 
-<img src="images/ISOTOPEphotos/3869.png" alt="3869"  />
-<img src="images/ISOTOPEphotos/aewanderlustcircusob916.png" alt="aewanderlustcircusob916" />
-<img src="images/ISOTOPEphotos/C.png" alt="C" />
-<img src="images/ISOTOPEphotos/c11.jpg" alt="c11" />
-<img src="images/ISOTOPEphotos/c12.png" alt="c12" />
-<img src="images/ISOTOPEphotos/c14.png" alt="c14" />
-<img src="images/ISOTOPEphotos/c17.png" alt="c17" />
-<img src="images/ISOTOPEphotos/c19.png" alt="c19" />
-<img src="images/ISOTOPEphotos/c88.png" alt="c88" />
-<img src="images/ISOTOPEphotos/IMG_2299.png" alt="IMG_2299" />
-<img src="images/ISOTOPEphotos/MG_3875.png" alt="MG_3875" />
-<img src="images/ISOTOPEphotos/MG3135.png" alt="MG3135" />
+
+
+<a rel="example_group" href="images/ISOTOPEphotos/3869.png" ><img src="images/ISOTOPEphotos/3869.png"  /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/aewanderlustcircusob916.png" ><img src="images/ISOTOPEphotos/aewanderlustcircusob916.png"/></a>
+<a rel="example_group" href="images/ISOTOPEphotos/C.png" ><img src="images/ISOTOPEphotos/C.png"  />	   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c11.jpg"> <img src="images/ISOTOPEphotos/c11.jpg" alt="c11" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c12.png"> <img src="images/ISOTOPEphotos/c12.png" alt="c12" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c14.png" ><img src="images/ISOTOPEphotos/c14.png" alt="c14" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c17.png" ><img src="images/ISOTOPEphotos/c17.png" alt="c17" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c19.png" ><img src="images/ISOTOPEphotos/c19.png" alt="c19" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c88.png" ><img src="images/ISOTOPEphotos/c88.png" alt="c88" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/IMG_2299.png" ><img src="images/ISOTOPEphotos/IMG_2299.png" alt="IMG_2</a>299" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG_3875.png" ><img src="images/ISOTOPEphotos/MG_3875.png" alt="MG_387</a>5" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG3135.png" ><img src="images/ISOTOPEphotos/MG3135.png" alt="MG3135" /></a>
+
+
+
+<a rel="example_group" href="images/ISOTOPEphotos/3869.png" ><img src="images/ISOTOPEphotos/3869.png"  /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/aewanderlustcircusob916.png" ><img src="images/ISOTOPEphotos/aewanderlustcircusob916.png"/></a>
+<a rel="example_group" href="images/ISOTOPEphotos/C.png" ><img src="images/ISOTOPEphotos/C.png"  />	   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c11.jpg"> <img src="images/ISOTOPEphotos/c11.jpg" alt="c11" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c12.png"> <img src="images/ISOTOPEphotos/c12.png" alt="c12" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c14.png" ><img src="images/ISOTOPEphotos/c14.png" alt="c14" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c17.png" ><img src="images/ISOTOPEphotos/c17.png" alt="c17" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c19.png" ><img src="images/ISOTOPEphotos/c19.png" alt="c19" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/c88.png" ><img src="images/ISOTOPEphotos/c88.png" alt="c88" />   </a>
+<a rel="example_group" href="images/ISOTOPEphotos/IMG_2299.png" ><img src="images/ISOTOPEphotos/IMG_2299.png" alt="IMG_2</a>299" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG_3875.png" ><img src="images/ISOTOPEphotos/MG_3875.png" alt="MG_387</a>5" /></a>
+<a rel="example_group" href="images/ISOTOPEphotos/MG3135.png" ><img src="images/ISOTOPEphotos/MG3135.png" alt="MG3135" /></a>
+
+
+
+
 
 
 </section>
@@ -261,11 +297,10 @@ ________________________________________________________________________________
 		<img src="images/Socialicons/twitter.png" alt="twitter" width="25" height="25" />
 	</a>
 	
-	&nbsp;&nbsp;copyright &copy; 2009 kaz&Uuml;m | <a href="mailto:Ulrikka.Haveron@kazum.com">Ulrikka.Haveron kaz&Uuml;m.com</a> | 1.503.449.7864</p>
+	&nbsp;&nbsp;copyright &copy; 2009 kaz&Uuml;m | <a href="mailto:kazum@kazum.org">kaz&Uuml;m@kaz&Uuml;m.org</a> | 1.503.449.7864</p>
 	
 </footer> <!-- FOOTER - end
 _______________________________________________________________________________________-->
-
 
 
 

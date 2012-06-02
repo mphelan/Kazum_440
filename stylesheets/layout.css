@@ -357,7 +357,10 @@ padding-top: 20px;
 border-top:4px solid #a170b0;
   }
 
-
+.contact{
+color:#a170b0;
+font-weight: 700;
+}
 
 /*responsiveslider
 ***********************************************************************//*! http://responsiveslides.com v1.32 by @viljamis */
