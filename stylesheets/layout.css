@@ -329,7 +329,9 @@ padding-bottom:10px;
 padding-top: 10px;
 }
 
-
+.press a:hover{
+opacity: .5;
+}
 
 /*Elements
 ***********************************************************************/
