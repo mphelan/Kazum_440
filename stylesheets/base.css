@@ -65,21 +65,22 @@
 		color: #B5B5B5;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
+		font-weight: bold;
 		}
 		
 	h3 {
 	    color: #333333;
 		font-family: 'Oswald', sans-serif;
-		letter-spacing: 1px;}
+		}
 		
 	h4{
 		color: #333333;
 		font-family: 'Oswald', sans-serif;
-		letter-spacing: 1px;} /* Murphy added these styles for h1 h3 h4 */
+		} /* Murphy added these styles for h1 h3 h4 */
 	h5 a{
 	    color: #B5B5B5;
 		font-family: 'Oswald', sans-serif;
-		letter-spacing: 1px;}
+		}
 		
 		
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
