@@ -96,7 +96,7 @@
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
     
-    .nav li{
+    nav li{
     font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;}
     
