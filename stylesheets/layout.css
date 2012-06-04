@@ -92,7 +92,7 @@ nav li{
   float: left;
   width: 117.5px; /* 960-255 =705   960-255/6=117.5   960-255/6/960 =0.1223958333333333 */
 padding-top: 8px;
-
+position: relative;
 
 }
 
@@ -106,8 +106,19 @@ left: 352.5px;
 }
 
 .nav-diamond {
+vertical-align:bottom;
 	color: #f3f4ee;
+	position: absolute;
+	right: -10px;
+	/* for firefox, safari, chrome, etc. */
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+/* for ie */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
+
+
+
 
 /* 960-255(logo)=705 / 6links =117.5 */
 
