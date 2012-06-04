@@ -19,6 +19,9 @@
 
 /* #Page Styles
 ================================================== */
+.margin_bottom_70{
+margin-bottom: 70px;
+}
 
 .margin_bottom_35{
 margin-bottom: 35px;
@@ -192,10 +195,10 @@ color: #B5B5B5;}
 
 #events p a{
 text-decoration: none;
-color: black;}
+color: #B5B5B5;}
 
 #events p a:hover{
-color: #B5B5B5;}
+color: #A170B0;}
 
 
 
@@ -351,11 +354,7 @@ opacity: .5;
 
 .purpBack{
 background-color: rgba(161,112,176,0.12); /* hex code #a170b0 */
-padding-right:10px;
-padding-left:10px;
-padding-bottom:10px;
-padding-top: 10px;
-
+padding: 25px 25px 25px 25px;
 }
 
 
