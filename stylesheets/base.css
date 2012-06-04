@@ -61,13 +61,18 @@
 
 /* #Typography
 ================================================== */
-	h1, h2, h5, h6 {
+	h1, h5, h6 {
 		color: #B5B5B5;
 		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
 		}
-		
+	h2 {
+		color: #A170B0;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		}
 	h3 {
 	    color: #333333;
 		font-family: 'Oswald', sans-serif;
