@@ -87,15 +87,24 @@ padding:0;
 list-style-type:none; 
 }
 
-.left{float: left;}
-.right{float:right;}
+.left{float: left;
+	width: 350px;
+		}
+		
+.left li{
+float: right;
+	}		
+.right{float:right;
+	width: 350px;
+	}
 
 nav li{
   display:block;
   margin: 0 auto;
   float: left;
-  width: 117.5px; /* 960-255 =705   960-255/6=117.5   960-255/6/960 =0.1223958333333333 */
-padding-top: 8px;
+  padding:8px 8px 0px; /* top right/left bottom  */
+
+/*   width: 117.5px; /* 960-255 =705   960-255/6=117.5   960-255/6/960 =0.1223958333333333 */ */
 position: relative;
 
 }
