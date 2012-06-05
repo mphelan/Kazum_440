@@ -387,6 +387,22 @@ color:#a170b0;
 font-weight: 700;
 }
 
+
+
+.contact a:link {
+color:#a170b0;
+font-weight: 700; text-decoration: none;}      /* unvisited link */
+
+.contact a:visited {
+color:#A9BF04; text-decoration: none;}  /* visited link */
+
+.contact a:hover {
+color:#666; text-decoration: none;}  /* mouse over link */
+
+.contact a:active {
+color:#666; text-decoration: none;}  /* selected link */ 
+
+
 /*responsiveslider
 ***********************************************************************//*! http://responsiveslides.com v1.32 by @viljamis */
 
