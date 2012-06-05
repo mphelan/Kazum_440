@@ -98,6 +98,10 @@ float: right;
 	width: 350px;
 	}
 
+.right li{
+float: left;
+	}	
+	
 nav li{
   display:block;
   margin: 0 auto;
