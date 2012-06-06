@@ -729,6 +729,12 @@ overflow:hidden;}
 	-webkit-column-count: 4;
 	column-count:         4;
 	}
+	
+	.logo{
+display: none;
+}
+	
+	
 	}
 	
 	/* All Mobile Sizes (devices and browser) */
@@ -739,6 +745,11 @@ overflow:hidden;}
 	-webkit-column-count: 3;
 	column-count:         3;
 	}
+	
+		.logo{
+display: none;
+}
+	
 	
 	}
 	
