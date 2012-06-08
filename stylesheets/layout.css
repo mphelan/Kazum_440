@@ -193,6 +193,54 @@ top: 80px;
 }
 
 
+/* Moble Navigation */
+	
+	#phonenav{
+	/*
+width: 90%;
+	margin: 0 10%  !important;
+
+*/
+	}
+
+	
+	#phonenav ul{
+		padding-bottom: 75px;
+}
+
+	#phonenav li{
+	width: 100%;
+	}
+	
+	#phonenav li a{
+	background: #5e3289;
+	border: .5px solid #fff;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+	display: block;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 29.81%;
+	
+	/*TRANSISTIONS*/
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+	}
+	
+	/*HOVER*/
+	phonenav li a:hover {
+	background: #f3f4ee;
+	}
+
+
 
 /* ________________________________ MURPHY'S STYLES ________________________________ */
 
@@ -726,9 +774,14 @@ overflow:hidden;}
 	display: none;	
 	}
 
+.smlogo{
+display: none;
+}
 
+	nav {
+	display:inherit;	
 	}
-	
+}	
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 	
@@ -738,10 +791,19 @@ overflow:hidden;}
 	column-count:         4;
 	}
 	
-	.logo{
-	display: none;
-	}
-	
+
+.logo {
+    height: auto;
+	display: block;
+    width: 33%;
+    position:absolute;
+        left: 33.5%;
+    top: 10px;
+}	
+
+	.smlogo{
+display: none;
+}
 	.rightflag {
 	display: none;
 	}
@@ -750,12 +812,24 @@ overflow:hidden;}
 	display: none;
 	}
 	
-	
-	
-	#phonenav {
+	nav {
 	display: none;	
 	}
 	
+
+	
+	#phonenav li a{
+	width: 29.81%;
+	padding-top:20px; 
+}
+
+
+.backgroundcolor{
+margin-top: -15px
+}
+
+
+
 	
 	
 	iframe{
@@ -773,38 +847,20 @@ overflow:hidden;}
 	margin-bottom: -40px;
 	}
 	
-	#photofiller {
-	-moz-column-count:    3;
-	-webkit-column-count: 3;
-	column-count:         3;
-	}
 	
-	.logo{
-	display: none;
+		#phonenav{
+	width: 102.5%;
 	}
-	.rightflag {
-	display: none;
-	}
-	
-	.leftflag {
-	display: none;
-	}
-	
-	nav {
-	display: none;	
-	}
-	#phonenav{
-	margin: 0 .5%  !important;}
 	
 	#phonenav ul{
-	padding-bottom: 75px;
-	}
+	margin: 0 auto  !important;
+		padding-bottom: 75px;
+}
 
 	#phonenav li{
 	width: 100%;
 	}
-	
-	#phonenav li a {
+	#phonenav li a{
 	background: #5e3289;
 	border: .5px solid #fff;
 	color: #fff;
@@ -831,6 +887,31 @@ overflow:hidden;}
 	phonenav li a:hover {
 	background: #f3f4ee;
 	}
+
+	
+	#photofiller {
+	-moz-column-count:    3;
+	-webkit-column-count: 3;
+	column-count:         3;
+	}
+	
+	.logo{
+	display: none;
+	}
+	.rightflag {
+	display: none;
+	}
+	
+	.leftflag {
+	display: none;
+	}
+	
+	nav {
+	display: none;	
+	}
+		
+
+
 
  h1, h2, h3, h4, h5, h6, p, hr {
  padding: 0 10px !important;}
@@ -893,8 +974,7 @@ padding-bottom: 10px;
 }
 
 #phonenav{
-	margin: 0 .5%  50px !important;}
-
+}
 
 #phonenav li a {
 width: 42.5%;
