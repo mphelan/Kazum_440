@@ -61,12 +61,12 @@ $(function() {
             
             // make the current column the large size
             $parentWrap.animate({
-                width: 220
+                width: 200
             }).addClass("curCol");
             
             // make other columns the small size
             $otherWraps.animate({
-                width: 140
+                width: 120
             }).removeClass("curCol");
             
             // make sure the correct column is current
